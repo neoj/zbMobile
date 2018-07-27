@@ -1,0 +1,17 @@
+{
+  "nav":{
+    "home":"Home",
+    "list":"List",
+    "collecthead":"CollectHead"
+    },
+  "MENU":"Menu",
+  "HOME": {
+   "TITLE":"Home",
+   "CONTENT":"Hello word!",
+   "DETAILS":"If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way."
+  },
+  "TABS": {
+    "HOME":"Home",
+    "ABOUT":"About"
+  }
+}

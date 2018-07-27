@@ -1,0 +1,25 @@
+<<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>collecthead</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only  (click)="navigatedToAddCollectHead()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+      <ion-icon [name]="item.icon" item-start></ion-icon>
+      {{item.region}}
+      <div class="item-note" item-end>
+        {{item.locale}}
+      </div>
+    </button>
+  </ion-list>
+</ion-content>

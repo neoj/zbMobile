@@ -1,0 +1,17 @@
+{
+  "nav":{
+    "home":"主页",
+    "list":"列表",
+    "collecthead":"采集"
+    },
+  "MENU":"菜单",
+  "HOME": {
+   "TITLE":"主页",
+   "CONTENT":"你好，世界！",
+   "DETAILS":"欢迎使用中百仓储的APP"
+  },
+  "TABS": {
+    "HOME":"主页",
+    "ABOUT":"关于"
+  }
+}

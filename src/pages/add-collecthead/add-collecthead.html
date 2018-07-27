@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-title align="center">Add CollectHead  <ion-icon name="md-cart"></ion-icon></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label floating>region</ion-label>
+    <ion-input type="text" [(ngModel)]="collectHead.region"></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label floating>locale</ion-label>
+      <ion-input type="text" [(ngModel)]="collectHead.locale"></ion-input>
+  </ion-item>
+  <br>
+  <button ion-button block (click)="addCollectHead(collectHead)" color="ButtonColor" round>Add Item</button>
+
+</ion-content>
